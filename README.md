@@ -282,19 +282,3 @@ Projektet använder en enkel hårdkodad lista med städer och koordinater. En me
 Projektet använder fallback, timeout och retry. Circuit Breaker är inte implementerat i denna version.
 
 ---
-
-## Sammanfattning
-
-Projektet uppfyller målet att bygga en Spring Boot-backend som integrerar med externa API:er via WebClient och hanterar externa fel på ett feltolerant sätt.
-
-Applikationen har:
-
-- En egen REST-endpoint
-- Två externa API-integrationer
-- Asynkrona WebClient-anrop
-- DTO:er för intern och extern data
-- Väderbaserad rekommendationslogik
-- Timeout
-- Retry
-- Fallback
-- Integrationstester som verifierar felhantering
